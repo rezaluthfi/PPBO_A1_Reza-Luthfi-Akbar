@@ -7,6 +7,30 @@ public class Keranjang {
     public Keranjang() {
     }
 
+    public int getJmlBarang() {
+        return jmlBarang;
+    }
+
+    public void setJmlBarang(int jmlBarang) {
+        this.jmlBarang = jmlBarang;
+    }
+
+    public int getTotalBerat() {
+        return totalBerat;
+    }
+
+    public void setTotalBerat(int totalBerat) {
+        this.totalBerat = totalBerat;
+    }
+
+    public ArrayList<Barang> getListBarang() {
+        return listBarang;
+    }
+
+    public void setListBarang(ArrayList<Barang> listBarang) {
+        this.listBarang = listBarang;
+    }
+
     public void tambahBarang(Barang barang){
         if(jmlBarang+barang.getJumlahBarang() <= 5){
             listBarang.add(barang);

@@ -22,4 +22,15 @@ public class Barang {
         return jumlahBarang;
     }
 
+    public void setNamaBarang(String namaBarang) {
+        this.namaBarang = namaBarang;
+    }
+
+    public void setHargaBarang(int hargaBarang) {
+        this.hargaBarang = hargaBarang;
+    }
+
+    public void setJumlahBarang(int jumlahBarang) {
+        this.jumlahBarang = jumlahBarang;
+    }
 }
